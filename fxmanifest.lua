@@ -16,3 +16,7 @@ client_scripts {
 server_scripts {
     'axionrichpresence/server.lua'
 }
+
+escrow_ignore { 
+	'configs/axionrichpresence.config.lua' 
+} 

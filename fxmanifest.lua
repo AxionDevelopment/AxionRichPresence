@@ -10,9 +10,9 @@ lua54 'yes'
 shared_script 'configs/richpresence.config.lua'
 
 client_scripts {
-    'scripts/client.lua'
+    'axionrichpresence/client.lua'
 }
 
 server_scripts {
-    'scripts/server.lua'
+    'axionrichpresence/server.lua'
 }

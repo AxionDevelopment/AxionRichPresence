@@ -7,7 +7,7 @@ version '1.0.0'
 
 lua54 'yes'
 
-shared_script 'configs/richpresence.config.lua'
+shared_script 'configs/axionrichpresence.config.lua'
 
 client_scripts {
     'axionrichpresence/client.lua'

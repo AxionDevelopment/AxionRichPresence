@@ -1,3 +1,7 @@
+-- Axion Rich Presence Configuration
+-- Author: SpunkyDunkie | AxionDevelopment
+-- GitHub: https://github.com/AxionDevelopment/AxionRichPresence
+
 AxionRichPresenceConfig = {}
 
 

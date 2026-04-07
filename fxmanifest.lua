@@ -9,13 +9,9 @@ lua54 'yes'
 
 shared_script 'configs/axionrichpresence.config.lua'
 
-client_scripts {
-    'axionrichpresence/client.lua'
-}
+client_script 'axionrichpresence/client.lua'
 
-server_scripts {
-    'axionrichpresence/server.lua'
-}
+server_script 'axionrichpresence/server.lua'
 
 escrow_ignore { 
 	'configs/axionrichpresence.config.lua' 

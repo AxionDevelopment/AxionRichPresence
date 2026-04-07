@@ -11,26 +11,26 @@ end)
 function UpdateRichPresence()
     local name = GetPlayerName(PlayerId())
 
-    SetDiscordAppId(RichPresenceConfig.AppID)
+    SetDiscordAppId(AxionRichPresenceConfig.AppID)
 
-    SetRichPresence(RichPresenceConfig.RichText:gsub("{player}", name):gsub("{playercount}", playerCount):gsub("{maxplayers}", maxPlayers))
+    SetRichPresence(AxionRichPresenceConfig.RichText:gsub("{player}", name):gsub("{playercount}", playerCount):gsub("{maxplayers}", maxPlayers))
 
-    if RichPresenceConfig.ShowLargeAsset then
-        SetDiscordRichPresenceAsset(RichPresenceConfig.LargeAsset)
-        SetDiscordRichPresenceAssetText(RichPresenceConfig.LargeAssetText)
+    if AxionRichPresenceConfig.ShowLargeAsset then
+        SetDiscordRichPresenceAsset(AxionRichPresenceConfig.LargeAsset)
+        SetDiscordRichPresenceAssetText(AxionRichPresenceConfig.LargeAssetText)
     end
 
-    if RichPresenceConfig.ShowSmallAsset then
-        SetDiscordRichPresenceAssetSmall(RichPresenceConfig.SmallAsset)
-        SetDiscordRichPresenceAssetSmallText(RichPresenceConfig.SmallAssetText)
+    if AxionRichPresenceConfig.ShowSmallAsset then
+        SetDiscordRichPresenceAssetSmall(AxionRichPresenceConfig.SmallAsset)
+        SetDiscordRichPresenceAssetSmallText(AxionRichPresenceConfig.SmallAssetText)
     end
 
-    if RichPresenceConfig.ShowDiscordButton then
-        SetDiscordRichPresenceAction(0, "Discord", RichPresenceConfig.DiscordInvite)
+    if AxionRichPresenceConfig.ShowDiscordButton then
+        SetDiscordRichPresenceAction(0, "Discord", AxionRichPresenceConfig.DiscordInvite)
     end
 
-    if RichPresenceConfig.ShowServerButton then
-        SetDiscordRichPresenceAction(1, "Connect to FiveM", RichPresenceConfig.ServerLink)
+    if AxionRichPresenceConfig.ShowServerButton then
+        SetDiscordRichPresenceAction(1, "Connect to FiveM", AxionRichPresenceConfig.ServerLink)
     end
 end
 

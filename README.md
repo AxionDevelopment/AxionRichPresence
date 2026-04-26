@@ -4,3 +4,6 @@
 
 ## Preview
 ![AxionRichPresence Preview](https://spunkyman.com/cdn/axion/AxionRichPresence_preview_new.png)
+
+## Configuration
+Easily customize almost every aspect of the script in the config file located at `/AxionRichPresence/configs/axionrichpresence.config.lua`
